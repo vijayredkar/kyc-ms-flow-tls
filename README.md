@@ -2,7 +2,7 @@
 MS to MS interaction end to end with TLS traffic
 
 
-1. created 2 microservices secured with SSL/TLS configuration
+* * created 2 microservices secured with SSL/TLS configuration
 2. only TLS traffic processing is enforced
 3. flow :   Browser --> kyc-aggregator-ssl-client --> kyc-aggregator-ssl-processor
 4. testing :
