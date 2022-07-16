@@ -18,8 +18,9 @@ MS to MS interaction end to end with TLS traffic
     - server.ssl.key-password=changeit
     - server.ssl.protocol=TLS
     - server.ssl.enabled-protocols=TLSv1.2
-
-7. #### Testing :
+7. #### Import certificate in to your truststore :
+    - double click on \src\main\resources\kyc-keystore.p12 and follow prompts to install in to your machine's truststore
+9. #### Testing :
    - https://localhost:8045/kyc/v1/simpleTrafficTLS
    - https://localhost/kyc/v1/simpleTrafficTLS
    - https://localhost:8045/swagger-ui.html
